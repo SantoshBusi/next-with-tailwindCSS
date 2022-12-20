@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { CrossIcon } from "./Icons";
-// import MobileProductsNav from "./MobileProductsNav";
+import MobileProductsNav from "./MobileProductsNav";
 
 const Sidebar = ({ isSidebarOpen, setSidebarOpen }) => {
   const [isShowProducts, setShowProducts] = useState(false);
