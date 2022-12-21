@@ -39,15 +39,16 @@ export default function helpDocument() {
     return (
         <>
             <Header />
-            <div className="bg-[#F2F2F2] flex pl-5 pt-5">
-                <div className="font-bold text-[#0C173A] text-[22px]  ff-inter w-[85%]">
+            <div className="bg-[#F2F2F2] flex px-5 pt-2 ">
+                <div className="font-bold text-[#0C173A] text-[22px]  ff-inter w-[84%]">
                     General Settings
                 </div>
                 <div className="flex">
                     <button className="rounded py-1 px-5 mr-3 bg-[#FFFFFF] text-[16px] text-[#0C173A] ff-inter">
                         Print
                     </button>
-                    <button className="rounded py-1 px-5 mr-3 bg-[#FFFFFF] text-[16px] text-[#0C173A] ff-inter">
+                    <button className="rounded flex py-1 px-5 bg-[#FFFFFF] text-[16px] text-[#0C173A] ff-inter">
+                        <img src="images/Vector.svg" alt="" className="mx-2"/>
                         Download
                     </button>
                 </div>
