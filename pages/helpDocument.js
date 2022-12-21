@@ -6,26 +6,32 @@ export default function helpDocument() {
     const Data = [
         {
             "title": "How to configure a customer",
+            "ind":"1",
             "pGraph": "The Customer setup document will help you configure the settngs to add a customer to your database The Customer setup document will help you configuhkja "
         },
         {
             "title": "How to add a customer",
+            "ind":"2",
             "pGraph": "The Customer setup document will help you configure the settngs to add a customer to your database The Customer setup document will help you configuhkja"
         },
         {
             "title": "How to add search criteria for customers",
+            "ind":"3",
             "pGraph": "The Customer setup document will help you configure the settngs to add a customer to your database The Customer setup document will help you configuhkja"
         },
         {
             "title": "How to configure a customer",
+            "ind":"4",
             "pGraph": "The Customer setup document will help you configure the settngs to add a customer to your database The Customer setup document will help you configuhkja"
         },
         {
             "title": "How to add a customer",
+            "ind":"5",
             "pGraph": "The Customer setup document will help you configure the settngs to add a customer to your database The Customer setup document will help you configuhkja"
         },
         {
             "title": "How to add search criteria for customers",
+            "ind":"6",
             "pGraph": "The Customer setup document will help you configure the settngs to add a customer to your database The Customer setup document will help you configuhkja"
         }
     ]
@@ -129,7 +135,7 @@ export default function helpDocument() {
                         {
                             Data.map((data) => {
                                 return (
-                                    <li className="ff-inter mb-5">
+                                    <li key={data.ind} className="ff-inter mb-5">
                                         <div className="text-[#0A58CC] text-[18px] ff-inter">{data.title}</div>
                                         {data.pGraph}
                                     </li>
