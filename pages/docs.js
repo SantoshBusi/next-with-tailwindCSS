@@ -15,7 +15,7 @@ export default function Docs() {
                     height={561}
                     alt="pos hero img"
                 /> */}
-                <div className="help-desk py-1  mb-14 bg-center bg-cover h-[250px] px-5 sm:h-[350px] sm:px-10 lg:px-48 xl:px-80 ">
+                <div className="bg-[url('../public/images/image737.png')] py-1  mb-14 bg-center bg-cover h-[250px] px-5 sm:h-[350px] sm:px-10 lg:px-48 xl:px-80 ">
                     <SearchBar />
                     <p className="sm:mt-5 text-center text-[#475467] ff-inter">
                         Login to check your open tickets and create new tickets
@@ -231,7 +231,7 @@ export default function Docs() {
                             <div className="text-[#667085] text-[12px] ff-inter">
                                 POS
                             </div>
-                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[70%]">
+                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[80%] lg:w-[70%]">
                                 How to setup multiple payment methods in POS
                             </h1>
                             <Image
@@ -246,7 +246,7 @@ export default function Docs() {
                             <div className="text-[#667085] text-[12px] ff-inter">
                                 Inventory
                             </div>
-                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[70%]">
+                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[80%] lg:w-[70%]">
                                 Reduce low-stock or no stock by setting alerts
                             </h1>
                             <Image
@@ -276,7 +276,7 @@ export default function Docs() {
                             <div className="text-[#667085] text-[12px] ff-inter">
                                 POS
                             </div>
-                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[70%]">
+                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[80%] lg:w-[70%]">
                                 How to setup multiple payment methods in POS
                             </h1>
                             <Image
@@ -291,7 +291,7 @@ export default function Docs() {
                             <div className="text-[#667085] text-[12px] ff-inter">
                                 Inventory
                             </div>
-                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[70%]">
+                            <h1 className="text-[#101828] font-bold mb-2 ff-inter h-12 w-[80%] lg:w-[70%]">
                                 Reduce low-stock or no stock by setting alerts
                             </h1>
                             <Image

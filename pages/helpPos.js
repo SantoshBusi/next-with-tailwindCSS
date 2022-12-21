@@ -7,7 +7,7 @@ export default function helpPos() {
     return (
         <>
             <Layout>
-                <div className="help-pos sm:px-20 py-20 mb-10 h-auto bg-center bg-cover xl:flex sm:flex-none w-full    ">
+                <div className="bg-[url('../public/images/image738.png')] sm:px-20 py-20 mb-10 h-auto bg-center bg-cover xl:flex sm:flex-none w-full    ">
                     <div className="w-[65%] sm:w-full  ">
                         <a href="./docs" className="rounded-full py-5 text-[#164AF1] text-sm flex ff-inter">
                             See all apps
