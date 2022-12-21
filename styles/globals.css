@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 
 @tailwind components;
 @tailwind utilities;
+
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.ff-chivo {
+  font-family: "Chivo", sans-serif;
+}
+
+.ff-notosans {
+  font-family: "Noto Sans", sans-serif;
+}
 
 html,
 body {
@@ -31,4 +47,10 @@ a {
     color: white;
     background: black;
   }
+}
+.help-desk{
+  background-image: url(../public/images/image737.png);
+}
+.help-pos{
+  background-image: url(../public/images/image738.png);
 }

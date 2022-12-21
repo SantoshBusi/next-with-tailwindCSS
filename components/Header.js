@@ -51,16 +51,16 @@ const Navbar = ({ setSidebarOpen }) => {
             className="mx-5  transition-all duration-200 ease-in relative"
             onMouseOver={() => setShowProducts(true)}
           >
-            <a href="">Products</a>
+            <a href="">Apps</a>
             {isShowProducts && <ProductsNav />}
           </li>
           <li className="mx-5  transition-all duration-200 ease-in relative">
-            <a href="">Business Types</a>
+            <a href="">Contact Support</a>
           </li>
           <li className="mx-5  transition-all duration-200 ease-in relative">
-            <a href="">Blog</a>
+            <a href="">My Tickets</a>
           </li>
-          <li className="mx-5  transition-all duration-200 ease-in relative">
+          {/* <li className="mx-5  transition-all duration-200 ease-in relative">
             <a href="">Contact</a>
           </li>
           <li className="mx-5  transition-all duration-200 ease-in relative ">
@@ -68,7 +68,7 @@ const Navbar = ({ setSidebarOpen }) => {
               {" "}
               Pricing
             </Link>
-          </li>
+          </li> */}
         </ul>
 
         <div className="flex items-center">
@@ -81,7 +81,7 @@ const Navbar = ({ setSidebarOpen }) => {
           </Link>
 
           <button className="bg-blue px-5 xl:px-8 py-3 xl:py-4 rounded-full  text-white text-base flex items-center free-trial-btn-hover  transition-all duration-200 ease-in hover:shadow-lg">
-            Free Trial
+            Sign Up
             <LeftArrow />
           </button>
 

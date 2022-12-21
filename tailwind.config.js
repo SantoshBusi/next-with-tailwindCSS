@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'help-desk': "url('../public/images/image737.png')",
+        'help-pos': "url('../public/images/image738.png')",
+      },
+      fontFamily: {
+        chivo: ["Chivo", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        noto: ["Noto", "sans-serif"],
+      },
       fontSize: {
         "1xs": "12px",
         xs: "14px",
