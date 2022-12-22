@@ -21,7 +21,7 @@ export default function Docs() {
                         Login to check your open tickets and create new tickets
                     </p>
                 </div>
-                <div className="mx-01 mb-14">
+                <div className="mx-10 mb-14">
                     <h2 className="ff-inter mx-[10px] font-bold sm:text-3xl text-2xl text-darkBlack leading-[46px] md:leading-[64px] max-w-[667px] ">
                         Explore docs by apps
                     </h2>
