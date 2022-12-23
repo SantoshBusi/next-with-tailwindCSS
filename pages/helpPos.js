@@ -8,7 +8,7 @@ export default function helpPos() {
         <>
             <Layout>
                 <div className="bg-[url('../public/images/image738.png')] px-10 sm:px-20 py-20 mb-10 h-auto bg-center bg-cover xl:flex sm:flex-none w-full    ">
-                    <div className="w-[65%] sm:w-full  ">
+                    <div className="sm:w-full  ">
                         <a href="./docs" className="rounded-full py-5 text-[#164AF1] text-sm flex ff-inter">
                             See all apps
                         </a >
@@ -16,7 +16,7 @@ export default function helpPos() {
                             <h1 className="text-[#0C173A] font-bold text-[50px] mb-5 ff-inter">
                                 Sales
                             </h1>
-                            <p className="text-[#475467] text-[18px] ff-inter">
+                            <p className="text-[#475467] sm:text-[18px] ff-inter">
                                 Create higher value for your clients, higher margins for your organization, and maximize their commission checks. If you’re a sales leader, think about your team for a moment.
 
                             </p>

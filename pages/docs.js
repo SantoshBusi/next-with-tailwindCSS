@@ -17,7 +17,7 @@ export default function Docs() {
                 /> */}
                 <div className="bg-[url('../public/images/image737.png')] py-1  mb-14 bg-center bg-cover h-auto px-5 sm:h-[350px] sm:px-10 lg:px-48 xl:px-80 ">
                     <SearchBar />
-                    <p className="sm:mt-5 text-center text-[#475467] ff-inter">
+                    <p className="mt-5 text-center text-[#475467] ff-inter">
                         Login to check your open tickets and create new tickets
                     </p>
                 </div>
