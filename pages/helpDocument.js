@@ -1,11 +1,11 @@
 import Layout from "../components/Layout"
 import Header from "../components/Header"
 import { ToggleIcon } from "../components/Icons"
-import { useState } from "react"
+// import { useState } from "react"
 
 export default function helpDocument() {
 
-    const [sideMenu,setSideMenu] =useState(false)
+    // const [sideMenu,setSideMenu] =useState(false)
     const Data = [
         {
             "title": "How to configure a customer",
