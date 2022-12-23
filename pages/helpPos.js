@@ -7,7 +7,7 @@ export default function helpPos() {
     return (
         <>
             <Layout>
-                <div className="bg-[url('../public/images/image738.png')] sm:px-20 py-20 mb-10 h-auto bg-center bg-cover xl:flex sm:flex-none w-full    ">
+                <div className="bg-[url('../public/images/image738.png')] px-10 sm:px-20 py-20 mb-10 h-auto bg-center bg-cover xl:flex sm:flex-none w-full    ">
                     <div className="w-[65%] sm:w-full  ">
                         <a href="./docs" className="rounded-full py-5 text-[#164AF1] text-sm flex ff-inter">
                             See all apps
@@ -30,13 +30,13 @@ export default function helpPos() {
                         height={31}
                         alt="LOGO"
                         priority
-                        className="xl:w-[35%] sm:w-full sm:h-auto sm:mt-10"
+                        className="xl:w-[35%] w-full h-auto mt-10"
                     />
                     {/* </div> */}
 
 
                 </div>
-                <div className="sm:px-20">
+                <div className="px-10">
                     <h2 className="ff-inter  font-bold sm:text-3xl text-2xl text-darkBlack leading-[46px] md:leading-[64px] max-w-[667px] ">
                         6 Documents
                     </h2>

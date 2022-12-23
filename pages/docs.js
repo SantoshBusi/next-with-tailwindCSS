@@ -15,7 +15,7 @@ export default function Docs() {
                     height={561}
                     alt="pos hero img"
                 /> */}
-                <div className="bg-[url('../public/images/image737.png')] py-1  mb-14 bg-center bg-cover h-[250px] px-5 sm:h-[350px] sm:px-10 lg:px-48 xl:px-80 ">
+                <div className="bg-[url('../public/images/image737.png')] py-1  mb-14 bg-center bg-cover h-auto px-5 sm:h-[350px] sm:px-10 lg:px-48 xl:px-80 ">
                     <SearchBar />
                     <p className="sm:mt-5 text-center text-[#475467] ff-inter">
                         Login to check your open tickets and create new tickets
@@ -26,26 +26,22 @@ export default function Docs() {
                         Explore docs by apps
                     </h2>
 
-                    <div className="grid mx-[10px] lg:grid-cols-3 xl:grid-cols-4 1xl:grid-cols-5 sm:grid-cols-2 gap-[30px] mt-[25px] sm:mt-[40px] 3xl:mt-[79px] pb-5">
+                    <div className="grid grid-cols-1 mx-[10px] lg:grid-cols-3 xl:grid-cols-5 sm:grid-cols-2 gap-[30px] mt-[25px] sm:mt-[40px] 3xl:mt-[79px] pb-5">
                         <a href="./pos">
-                            <div className="bg-[#FFF3EA] w-[250px] rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
+                            <div className="bg-[#FFF3EA] w-auto rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
                                 <div className="pt-[25px] sm:pt-[35px] 3xl:pt-[53px] pb-[25px] sm:pb-[35px] 3xl:pb-[55px] px-[20px] lg:pl-[29px] lg:pr-[29px]">
                                     <div className="flex space-x-5 ">
-                                        {/* <Image
-                                src="/images/design-1.png"
-                                width={50}
-                                height={40}
-                                alt="Creating design img"
-                            /> */}
                                         <div className="bg-[#FFFFFF] rounded-full p-3">
                                             <Image
+                                                className="max-w-max"
                                                 src="/images/design-1.png"
                                                 width={50}
                                                 height={40}
                                                 alt="Creating design img"
                                             />
+
                                         </div>
-                                        <h3 className="ff-inter font-bold text-xl sm:text-lg text-darkBlack mt-[15px] leading-[45px] sm:mt-[15px] 3xl:mt-[30px]">
+                                        <h3 className=" float-right ff-inter font-bold text-sm text-darkBlack mt-[15px] leading-10 ">
                                             POS
                                         </h3>
                                     </div>
@@ -65,24 +61,20 @@ export default function Docs() {
                             </div>
                         </a>
                         <a href="./inventory">
-                            <div className="bg-[#FDE2E4] w-[250px] rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
+                            <div className="bg-[#FDE2E4] w-auto rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
                                 <div className="pt-[25px] sm:pt-[35px] 3xl:pt-[53px] pb-[25px] sm:pb-[35px] 3xl:pb-[55px] px-[20px] lg:pl-[29px] lg:pr-[29px]">
                                     <div className="flex space-x-5 ">
-                                        {/* <Image
-                                src="/images/design-1.png"
-                                width={50}
-                                height={40}
-                                alt="Creating design img"
-                            /> */}
                                         <div className="bg-[#FFFFFF] rounded-full p-3">
                                             <Image
+                                                className="max-w-max"
                                                 src="/images/design-1.png"
                                                 width={50}
                                                 height={40}
                                                 alt="Creating design img"
                                             />
+
                                         </div>
-                                        <h3 className="ff-inter font-bold text-xl sm:text-lg text-darkBlack mt-[15px] leading-[45px] sm:mt-[15px] 3xl:mt-[30px]">
+                                        <h3 className=" float-right ff-inter font-bold text-sm text-darkBlack mt-[15px] leading-10 ">
                                             Inventory
                                         </h3>
                                     </div>
@@ -102,24 +94,20 @@ export default function Docs() {
                             </div>
                         </a>
                         <a href="./purchase">
-                            <div className="bg-[#DFE7FD] w-[250px] rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
+                            <div className="bg-[#DFE7FD] w-auto rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
                                 <div className="pt-[25px] sm:pt-[35px] 3xl:pt-[53px] pb-[25px] sm:pb-[35px] 3xl:pb-[55px] px-[20px] lg:pl-[29px] lg:pr-[29px]">
                                     <div className="flex space-x-5 ">
-                                        {/* <Image
-                                src="/images/design-1.png"
-                                width={50}
-                                height={40}
-                                alt="Creating design img"
-                            /> */}
                                         <div className="bg-[#FFFFFF] rounded-full p-3">
                                             <Image
+                                                className="max-w-max"
                                                 src="/images/design-1.png"
                                                 width={50}
                                                 height={40}
                                                 alt="Creating design img"
                                             />
+
                                         </div>
-                                        <h3 className="ff-inter font-bold text-xl sm:text-lg text-darkBlack mt-[15px] leading-[45px] sm:mt-[15px] 3xl:mt-[30px]">
+                                        <h3 className=" float-right ff-inter font-bold text-sm text-darkBlack mt-[15px] leading-10 ">
                                             Purchase
                                         </h3>
                                     </div>
@@ -139,24 +127,20 @@ export default function Docs() {
                             </div>
                         </a>
                         <a href="./helpPos">
-                            <div className="bg-[#D1ECFD] w-[250px] rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
+                            <div className="bg-[#D1ECFD] w-auto rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
                                 <div className="pt-[25px] sm:pt-[35px] 3xl:pt-[53px] pb-[25px] sm:pb-[35px] 3xl:pb-[55px] px-[20px] lg:pl-[29px] lg:pr-[29px]">
                                     <div className="flex space-x-5 ">
-                                        {/* <Image
-                                src="/images/design-1.png"
-                                width={50}
-                                height={40}
-                                alt="Creating design img"
-                            /> */}
                                         <div className="bg-[#FFFFFF] rounded-full p-3">
                                             <Image
+                                                className="max-w-max"
                                                 src="/images/design-1.png"
                                                 width={50}
                                                 height={40}
                                                 alt="Creating design img"
                                             />
+
                                         </div>
-                                        <h3 className="ff-inter font-bold text-xl sm:text-lg text-darkBlack mt-[15px] leading-[45px] sm:mt-[15px] 3xl:mt-[30px]">
+                                        <h3 className=" float-right ff-inter font-bold text-sm text-darkBlack mt-[15px] leading-10 ">
                                             Sales
                                         </h3>
                                     </div>
@@ -176,24 +160,20 @@ export default function Docs() {
                             </div>
                         </a>
                         <a href="./hrms">
-                            <div className="bg-[#DBECE5] w-[250px] rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
+                            <div className="bg-[#DBECE5] w-auto rounded-[16px] z-0 hover:scale-105  transition-all  ease-in hover:duration-200  relative">
                                 <div className="pt-[25px] sm:pt-[35px] 3xl:pt-[53px] pb-[25px] sm:pb-[35px] 3xl:pb-[55px] px-[20px] lg:pl-[29px] lg:pr-[29px]">
                                     <div className="flex space-x-5 ">
-                                        {/* <Image
-                                src="/images/design-1.png"
-                                width={50}
-                                height={40}
-                                alt="Creating design img"
-                            /> */}
                                         <div className="bg-[#FFFFFF] rounded-full p-3">
                                             <Image
+                                                className="max-w-max"
                                                 src="/images/design-1.png"
                                                 width={50}
                                                 height={40}
                                                 alt="Creating design img"
                                             />
+
                                         </div>
-                                        <h3 className="ff-inter font-bold text-xl sm:text-lg text-darkBlack mt-[15px] leading-[45px] sm:mt-[15px] 3xl:mt-[30px]">
+                                        <h3 className=" float-right ff-inter font-bold text-sm text-darkBlack mt-[15px] leading-10 ">
                                             HRMS
                                         </h3>
                                     </div>
@@ -212,13 +192,12 @@ export default function Docs() {
                                 </div>
                             </div>
                         </a>
-
                     </div>
                     <div className="flex justify-center">
-                    <button className="ff-inter mt-5 sm:mt-[0px] sm:ml-[22px] w-[186px] h-[45px] sm:h-[66px] justify-center  text-[#164AF1] text-sm flex items-center free-trial-btn-hover font-normal font-inter transition-all duration-200 ease-in">
-                        See all apps
-                        <LeftArrowBlue  />
-                    </button>
+                        <button className="ff-inter mt-5 sm:mt-[0px] sm:ml-[22px] w-[186px] h-[45px] sm:h-[66px] justify-center  text-[#164AF1] text-sm flex items-center free-trial-btn-hover font-normal font-inter transition-all duration-200 ease-in">
+                            See all apps
+                            <LeftArrowBlue />
+                        </button>
                     </div>
                 </div>
                 <div className="mx-10">
@@ -226,7 +205,7 @@ export default function Docs() {
                         Most browsed videos
                     </h2>
 
-                    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 1xl:grid-cols-3 mx-[10px]  ">
+                    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 xl:grid-cols-3 mx-[10px]  ">
                         <div className="mt-10">
                             <div className="text-[#667085] text-[12px] ff-inter">
                                 POS

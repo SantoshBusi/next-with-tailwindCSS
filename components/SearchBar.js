@@ -20,7 +20,7 @@ const SearchBar = () => {
         </span>
 
         <input
-          className="text-md text-[#868B8F] outline-none w-[680px]"
+          className="text-sm text-[#868B8F] outline-none text-ellipsis w-[80%] "
           type="text"
           placeholder="Search documents and help resources"
         />
